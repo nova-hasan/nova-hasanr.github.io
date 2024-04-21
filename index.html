@@ -84,9 +84,14 @@
 </main>
 
 <script> 
-var n = window.prompt ();
-if (n) 
-window.alert ("Berhasil Menambahkan judul buku " +n); 
+  function welcome() {
+    alert('Sim salabim muncullah elemen-elemen HTML!');
+    const contents = document.querySelector('.contents');
+    contents.removeAttribute('hidden');
+  }
+  document.body.onload = welcome;
+  document.getElementById('incrementButton').onclick = increment;
+  document.body.onload = welcome;
 </script>
 
 </body>
