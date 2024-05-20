@@ -12,7 +12,7 @@ function welcome() {
 //Contoh kode program
 document.getElementById('incrementButton').onclick = increment;
   document.body.onload = welcome;
-//Contoh kode program
+//Contoh kode program submit buku 
 function submit() {
     alert("Berhasil Input judul buku");
 }
